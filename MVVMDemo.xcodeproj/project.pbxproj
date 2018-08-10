@@ -14,6 +14,8 @@
 		91067E7F211C706E00CF1C77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91067E7D211C706E00CF1C77 /* LaunchScreen.storyboard */; };
 		91067E8A211C706E00CF1C77 /* MVVMDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91067E89211C706E00CF1C77 /* MVVMDemoTests.swift */; };
 		91067E95211C706E00CF1C77 /* MVVMDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91067E94211C706E00CF1C77 /* MVVMDemoUITests.swift */; };
+		91067EA6211D793E00CF1C77 /* TasksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91067EA5211D793E00CF1C77 /* TasksViewModel.swift */; };
+		91067EA8211D845500CF1C77 /* MoviesClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91067EA7211D845500CF1C77 /* MoviesClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		91067E90211C706E00CF1C77 /* MVVMDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91067E94211C706E00CF1C77 /* MVVMDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMDemoUITests.swift; sourceTree = "<group>"; };
 		91067E96211C706E00CF1C77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91067EA5211D793E00CF1C77 /* TasksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewModel.swift; sourceTree = "<group>"; };
+		91067EA7211D845500CF1C77 /* MoviesClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				91067E74211C706A00CF1C77 /* AppDelegate.swift */,
 				91067E76211C706A00CF1C77 /* ViewController.swift */,
+				91067EA7211D845500CF1C77 /* MoviesClient.swift */,
+				91067EA5211D793E00CF1C77 /* TasksViewModel.swift */,
 				91067E78211C706A00CF1C77 /* Main.storyboard */,
 				91067E7B211C706E00CF1C77 /* Assets.xcassets */,
 				91067E7D211C706E00CF1C77 /* LaunchScreen.storyboard */,
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				91067E77211C706A00CF1C77 /* ViewController.swift in Sources */,
+				91067EA6211D793E00CF1C77 /* TasksViewModel.swift in Sources */,
 				91067E75211C706A00CF1C77 /* AppDelegate.swift in Sources */,
+				91067EA8211D845500CF1C77 /* MoviesClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
